@@ -1,0 +1,76 @@
+/* Teblet Layout */
+@media only screen and (min-width:200px) and (max-width:991px){
+    .social_area {
+        max-width: 460px;
+        padding-top: 14px;
+    }
+    .mean-bar {
+        background: none;
+    }
+    .inner_menu{
+        background: none;
+        min-height: auto;
+    }
+    .inner_menu::after{
+        display: none;
+    }
+    mean-container .mean-nav{
+        margin-top: 0;
+        width: 80%;
+    }
+    .inner_headers {
+        padding: 20px 0;
+    }
+    .inner_hero h2{
+        font-size: 25px;
+    }
+    img{
+        max-width: 95%;
+    }
+    .child_testimonial h3{
+        font-size: 15px;
+    }
+      
+}
+/* Android Layout */
+@media only screen and (min-width:200px) and (max-width:480px){
+    .mini-menu{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mini-menu ul, .social_area ul{
+        text-align: center;
+    }
+    .search_area, .logo_area{
+        float: none;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .social_area ul li{
+        margin-left: 0 5px;
+    }
+    .logo_area{
+        text-align: center;
+    }
+    .inner_hero{
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    #work_area, #footer_area{
+        padding: 20px 0;
+    }
+    .child_work{
+        width: 98%;
+    }
+    .child_footer{
+        width: 96%;
+    }
+    .left_copyright{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .right_copyright{
+        text-align: left;
+        width: 100%;
+    }
+}
